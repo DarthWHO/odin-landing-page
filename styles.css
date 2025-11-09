@@ -1,0 +1,156 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header,
+.main {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 200px;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+nav > ul {
+  display: flex;
+  gap: 30px;
+}
+
+.information,
+.action {
+  background-color: #e5e7eb;
+  padding: 0px 200px;
+}
+
+.main {
+  display: flex;
+  padding: 0px 200px;
+}
+
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+}
+
+.image-box {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info > h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.gallery-containers {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-box {
+  height: 150px;
+  width: 150px;
+  border: solid 5px #3882f6;
+  border-radius: 10px;
+}
+
+.gallery-text {
+  text-align: center;
+  width: 150px;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #1f2937;
+}
+
+.quote {
+  padding: 80px 0px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  padding: 0px 600px;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quoter {
+    padding: 0px 600px;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: right;
+  align-self: flex-end;
+}
+
+.action {
+  padding: 0px 200px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  padding: 0px 200px;
+}
