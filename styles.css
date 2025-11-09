@@ -43,7 +43,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 200px;
+  padding: 20px 400px;
 }
 
 .header-logo {
@@ -64,19 +64,35 @@ nav > ul {
 
 .main {
   display: flex;
-  padding: 0px 200px;
+  gap: 200px;
+  padding: 80px 400px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 button {
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+}
+
+.hero-button {
   background-color: #3882f6;
   color: #e5e7eb;
 }
 
 .image-box {
-    width: 400px;
-    height: 200px;
-    background-color: grey;
-    border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 180px;
+  background-color: grey;
+  border-radius: 10px;
 }
 
 .info {
@@ -86,6 +102,7 @@ button {
 }
 
 .info > h2 {
+  margin-top: 20px;
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
@@ -93,7 +110,7 @@ button {
 
 .gallery-containers {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -106,15 +123,15 @@ button {
 }
 
 .gallery-box {
-  height: 150px;
-  width: 150px;
+  height: 180px;
+  width: 180px;
   border: solid 5px #3882f6;
   border-radius: 10px;
 }
 
 .gallery-text {
   text-align: center;
-  width: 150px;
+  width: 180px;
   margin-top: 10px;
   font-size: 18px;
   color: #1f2937;
@@ -136,7 +153,7 @@ button {
 }
 
 .quoter {
-    padding: 0px 600px;
+  padding: 0px 600px;
   font-size: 24px;
   font-weight: 900;
   text-align: right;
@@ -144,13 +161,32 @@ button {
 }
 
 .action {
-  padding: 0px 200px;
+  background-color: #f9faf8;
+  padding: 30px 450px;
+}
+
+.action-box {
+  padding: 60px;
+  border-radius: 10px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-button {
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  color: #f9faf8;
+  border-radius: 10px;
 }
 
 footer {
+  font-size: 18px;
   background-color: #1f2937;
   color: #e5e7eb;
   display: flex;
   justify-content: center;
-  padding: 0px 200px;
+  padding: 50px 200px;
 }
